@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T21:28:30 EST" name="Default suite" finished-at="2023-01-09T21:28:35 EST" duration-ms="5201">
+    <groups>
+    </groups>
+    <test started-at="2023-01-09T21:28:30 EST" name="Default test" finished-at="2023-01-09T21:28:35 EST" duration-ms="5201">
+      <class name="petStoreApiTests.PetStoreApiTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:30 EST" name="setup" finished-at="2023-01-09T21:28:30 EST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="chainValidation()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:30 EST" name="chainValidation" finished-at="2023-01-09T21:28:33 EST" duration-ms="2979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chainValidation -->
+        <test-method signature="createCatWithJsonFile()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:33 EST" name="createCatWithJsonFile" finished-at="2023-01-09T21:28:34 EST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCatWithJsonFile -->
+        <test-method signature="invalidIdUpdateCat()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:34 EST" name="invalidIdUpdateCat" finished-at="2023-01-09T21:28:34 EST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidIdUpdateCat -->
+        <test-method signature="postACat()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:34 EST" name="postACat" finished-at="2023-01-09T21:28:34 EST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postACat -->
+        <test-method signature="postAPet()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:34 EST" name="postAPet" finished-at="2023-01-09T21:28:34 EST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPet -->
+        <test-method signature="findPetByStatus()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:34 EST" name="findPetByStatus" finished-at="2023-01-09T21:28:34 EST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findPetByStatus -->
+        <test-method signature="getPetById()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:34 EST" name="getPetById" finished-at="2023-01-09T21:28:34 EST" depends-on-methods="petStoreApiTests.PetStoreApiTests.postAPet" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetById -->
+        <test-method signature="updateCat()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:34 EST" name="updateCat" finished-at="2023-01-09T21:28:35 EST" depends-on-methods="petStoreApiTests.PetStoreApiTests.postACat" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCat -->
+        <test-method signature="getById()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:35 EST" name="getById" finished-at="2023-01-09T21:28:35 EST" depends-on-methods="petStoreApiTests.PetStoreApiTests.postACat, petStoreApiTests.PetStoreApiTests.updateCat" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getById -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:petStoreApiTests.PetStoreApiTests@5276e6b0]" started-at="2023-01-09T21:28:35 EST" name="cleanup" finished-at="2023-01-09T21:28:35 EST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- petStoreApiTests.PetStoreApiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
