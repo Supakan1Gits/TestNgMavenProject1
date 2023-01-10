@@ -199,7 +199,7 @@ public class PetStoreApiTests {
 		.and().assertThat().body("tags[0].id", equalTo(18))
 		.and().assertThat().body("tags[0].name", equalTo("persian"))
 		.and().assertThat().body("tags[1].id", equalTo(2))
-		.and().assertThat().body("tags[1].name", equalTo("Anatolian"))
+		.and().assertThat().body("tags[1].name", equalTo("Milo"))
 		.and().assertThat().body("status", equalTo("available"));
 		
 		myResponse.prettyPrint();
